@@ -7,7 +7,7 @@
         
             <Grid RowDefinitions="*,*" ColumDefinitions="*">
             <WebView Grid.Column="0" Grid.Row="0"
-					  Source="https://youtu.be/ejvK2jW8dh8?si=Abu68xeKehDEX3ZF"/>
+					  Source="https://youtu.be/g6ng8iy-l0U?si=sWDnSdPpFXzmYt8n"/>
 
             <ScrollView Grid.Row="1" Grid.Column="0">
 
