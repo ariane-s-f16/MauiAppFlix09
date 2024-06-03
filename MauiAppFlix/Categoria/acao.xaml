@@ -25,7 +25,7 @@
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="karatekidbtn"
 								 Style="{StacticResource btnfilm}" Source="acao_karatekid.jpg" Clicked="karatekidbtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="vilgadores-ultimato"
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="vilgadoresultimatobtn"
 								 Style="{StacticResource btnfilm}" Source="acao_vingadoresultimato.jpg" Clicked="vingadoresultimatobtn_Clicked"/>
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="ostrezentosbtn"
