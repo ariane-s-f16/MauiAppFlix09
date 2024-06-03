@@ -26,7 +26,7 @@
                         </StackLayout>
                     <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
                         <Label Text="sinopse" Style="{StaticResource titulo}"/>
-                        <label Text="O rei Leônidas e seus 300 guerreiros de Esparta lutam bravamente contra o numeroso exército do rei Xerxes. Após três dias de muita luta, 
+                        <Label Text="O rei Leônidas e seus 300 guerreiros de Esparta lutam bravamente contra o numeroso exército do rei Xerxes. Após três dias de muita luta, 
                                 o sacrifício e a dedicação destes homens uniu a Grécia no combate contra o inimigo persa." FontSize="Medium" Padding="5"/>
                     </StackLayout>
 
