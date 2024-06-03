@@ -4,9 +4,37 @@
              x:Class="MauiAppFlix.filme_acao02.os300"
              Title="os300">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        
+            <Grid RowDefinitions="*,*" ColumDefinitions="*">
+            <WebView Grid.Column="0" Grid.Row="0"
+					  Source="https://youtu.be/r_8Rw16uscg?si=JIPy6oH7aAABFQ3C"/>
+
+            <ScrollView Grid.Row="1" Grid.Column="0">
+
+                <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                    <Image Grid.Row="0" Grid.Column="0" x:Name="poster" HeightRequest="300"/>
+
+                        <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1"  Grid.Row="0">
+                            <Label Text="data de Lançamento" Style="{StaticResource titulo}" />
+
+                            <Label Text="9 de março de 2007" Style="{StaticResource textotitulo}"/>
+
+                            <Label Text="Direção" Margin="0,20,0,0" Style="{StaticResource titulo}"/>
+                        
+                            <Label Text="Zack Snyder" Style="{StaticResource textotitulo}"/>
+
+                        </StackLayout>
+                    <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+                        <Label Text="sinopse" Style="{StaticResource titulo}"/>
+                        <label Text="O rei Leônidas e seus 300 guerreiros de Esparta lutam bravamente contra o numeroso exército do rei Xerxes. Após três dias de muita luta, 
+                                o sacrifício e a dedicação destes homens uniu a Grécia no combate contra o inimigo persa." FontSize="Medium" Padding="5"/>
+                    </StackLayout>
+
+                </Grid>
+
+            <ScrollView>
+
+        
+        
     </VerticalStackLayout>
-</ContentPage>
+
