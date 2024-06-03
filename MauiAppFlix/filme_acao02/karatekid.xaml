@@ -26,7 +26,7 @@
                         </StackLayout>
                     <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
                         <Label Text="sinopse" Style="{StaticResource titulo}"/>
-                        <label Text="O adolescente Daniel LaRusso se envolve com a ex-namorada do valentão da escola 
+                        <Label Text="O adolescente Daniel LaRusso se envolve com a ex-namorada do valentão da escola 
 					e começa a ser atormentado por sua gangue. 
 					Para sua sorte, ele conta com os ensinamentos do senhor Miyagi, 
 					um mestre de karatê que o prepara para autodefesa 
