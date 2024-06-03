@@ -23,13 +23,13 @@
 								 Style="{StacticResource btnfilm}" Source="ave_carros.jpg" Clicked="carrosbtn_Clicked"/>
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="gato_de_botasbtn"
-								 Style="{StacticResource btnfilm}" Source="ave_gato_de_botas.jpg" Clicked="gato_de_botasbtn_Clicked"/>
+								 Style="{StacticResource btnfilm}" Source="ave_gatodebotas2.jpg" Clicked="gato_de_botasbtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="dunabtn"
-								 Style="{StacticResource btnfilm}" Source="ave_duna.jpg" Clicked="dunaobtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="JurassikParkbtn"
+								 Style="{StacticResource btnfilm}" Source="ave_JurassikPark.jpg" Clicked="JurassikParkbtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="indianabtn"
-								 Style="{StacticResource btnfilm}" Source="ave_indiana.jpg" Clicked="indianabtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="harrybtn"
+								 Style="{StacticResource btnfilm}" Source="ave_harrypotter.jpg" Clicked="harrybtn_Clicked"/>
 
             </Grid>
 
