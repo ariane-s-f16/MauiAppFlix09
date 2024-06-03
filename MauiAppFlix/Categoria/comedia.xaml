@@ -25,8 +25,8 @@
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="asbranquelasbtn"
 								 Style="{StacticResource btnfilm}" Source="co_asbranquelas.jpg" Clicked="asbranquelasbtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="clickbtn"
-								 Style="{StacticResource btnfilm}" Source="co_click.jpg" Clicked="clickbtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="gentegrandebtn"
+								 Style="{StacticResource btnfilm}" Source="co_gente_grande.jpg" Clicked="gentegrandebtn_Clicked"/>
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="todomundoempanicobtn"
 								 Style="{StacticResource btnfilm}" Source="co_todomundoempanico.jpg" Clicked="todomundoempanicobtn_Clicked"/>
