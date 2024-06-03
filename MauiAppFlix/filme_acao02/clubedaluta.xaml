@@ -5,23 +5,23 @@
              Title="clubedaluta">
     <VerticalStackLayout>
         
-            <Grid RowDefinitions="*,*" columDefinitions="*">
+            <Grid RowDefinitions="*,*" ColumDefinitions="*">
             <WebView Grid.Column="0" Grid.Row="0"
-					  source="https://youtu.be/ejvK2jW8dh8?si=Abu68xeKehDEX3ZF"/>
+					  Source="https://youtu.be/ejvK2jW8dh8?si=Abu68xeKehDEX3ZF"/>
 
-            <ScrollView Grid.row="1" Grid.column="0">
+            <ScrollView Grid.Row="1" Grid.Column="0">
 
-                <Grid RowDefinitions="*,*" columndefinitions="*,*">
-                    <Image Grid.Row="0" Grid.Column="0" x:name="poster" HeightRequest="300"/>
+                <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                    <Image Grid.Row="0" Grid.Column="0" x:Name="poster" HeightRequest="300"/>
 
-                        <StackLayout VerticalOptions="CenterAndExpand" Grid.column="1"  Grid.row="0">
+                        <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1"  Grid.Row="0">
                             <Label Text="data de Lançamento" Style="{StaticResource titulo}" />
 
                             <Label Text="29 de outubro de 1999" Style="{StaticResource textotitulo}"/>
 
                             <Label Text="Direção" Margin="0,20,0,0" Style="{StaticResource titulo}"/>
                         
-                            <label Text="David Fincher" Style="{StaticResource textotitulo}"/>
+                            <Label Text="David Fincher" Style="{StaticResource textotitulo}"/>
 
                         </StackLayout>
                     <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
