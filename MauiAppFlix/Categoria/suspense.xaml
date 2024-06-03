@@ -17,7 +17,7 @@
     <VerticalStackLayout>
 
 
-        <ScrowView >
+        <ScrollView >
             <Grid RowDefinitions="300,300,300" ColumnDefinitions="*,*" Padding="5" RowSpacing="2" ColumnSpacing="2">
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="clubedalutabtn"
 								 Style="{StacticResource btnfilm}" Source="acao_clubedaluta.jpg" Clicked="clubedalutabtn_Clicked"/>
@@ -35,8 +35,10 @@
 
 
 
-        </ScrowView>
+        </ScrollView>
 
+	
+	</Grid>
         
     </VerticalStackLayout>
 	
