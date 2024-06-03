@@ -7,7 +7,7 @@
         
             <Grid RowDefinitions="*,*" ColumDefinitions="*">
             <WebView Grid.Column="0" Grid.Row="0"
-					  Source=""/>
+					  Source="https://youtu.be/r_8Rw16uscg?si=JIPy6oH7aAABFQ3C"/>
 
             <ScrollView Grid.Row="1" Grid.Column="0">
 
@@ -17,20 +17,20 @@
                         <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1"  Grid.Row="0">
                             <Label Text="data de Lançamento" Style="{StaticResource titulo}" />
 
-                            <Label Text="29 de outubro de 1999" Style="{StaticResource textotitulo}"/>
+                            <Label Text="28 de setembro de 1984" Style="{StaticResource textotitulo}"/>
 
                             <Label Text="Direção" Margin="0,20,0,0" Style="{StaticResource titulo}"/>
                         
-                            <Label Text="David Fincher" Style="{StaticResource textotitulo}"/>
+                            <Label Text="John G. Avildsen" Style="{StaticResource textotitulo}"/>
 
                         </StackLayout>
                     <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
                         <Label Text="sinopse" Style="{StaticResource titulo}"/>
-                        <label Text="Um homem deprimido que sofre de insônia conhece um estranho vendedor chamado Tyler Durden 
-                               e se vê morando em uma casa suja 
-                               depois que seu perfeito apartamento é destruído. 
-                               A dupla forma um clube com regras rígidas onde homens lutam. 
-                               A parceria perfeita é comprometida quando uma mulher, Marla, atrai a atenção de Tyler." FontSize="Medium" Padding="5"/>
+                        <label Text="O adolescente Daniel LaRusso se envolve com a ex-namorada do valentão da escola 
+					e começa a ser atormentado por sua gangue. 
+					Para sua sorte, ele conta com os ensinamentos do senhor Miyagi, 
+					um mestre de karatê que o prepara para autodefesa 
+					e também para um importante campeonato." FontSize="Medium" Padding="5"/>
                     </StackLayout>
 
                 </Grid>
