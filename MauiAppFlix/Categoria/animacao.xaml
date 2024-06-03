@@ -19,17 +19,17 @@
 
         <ScrowView >
             <Grid RowDefinitions="300,300,300" ColumnDefinitions="*,*" Padding="5" RowSpacing="2" ColumnSpacing="2">
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="clubedalutabtn"
-								 Style="{StacticResource btnfilm}" Source="acao_clubedaluta.jpg" Clicked="clubedalutabtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="riobtn"
+								 Style="{StacticResource btnfilm}" Source="ani_rio.jpg" Clicked="riobtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="karatekidbtn"
-								 Style="{StacticResource btnfilm}" Source="acao_karatekid.jpg" Clicked="karatekidbtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="toy_storybtn"
+								 Style="{StacticResource btnfilm}" Source="ani_toy_story.jpg" Clicked="toy_storybtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="vilgadores-ultimato"
-								 Style="{StacticResource btnfilm}" Source="acao_vingadoresultimato.jpg" Clicked="vingadoresultimatobtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="dinossaurobtn"
+								 Style="{StacticResource btnfilm}" Source="ani_o_bom_dinossauro.jpg" Clicked="dinossaurobtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="ostrezentosbtn"
-								 Style="{StacticResource btnfilm}" Source="acao_300.jpg" Clicked="ostrezentosbtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="kung_fu_pandabtn"
+								 Style="{StacticResource btnfilm}" Source="ani_kung_fu_panda.jpg" Clicked="kung_fu_pandabtn_Clicked"/>
 
             </Grid>
 
