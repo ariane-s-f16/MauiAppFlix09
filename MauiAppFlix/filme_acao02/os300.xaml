@@ -5,7 +5,7 @@
              Title="os300">
     <VerticalStackLayout>
         
-            <Grid RowDefinitions="*,*" ColumDefinitions="*">
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*">
             <WebView Grid.Column="0" Grid.Row="0"
 					  Source="https://youtu.be/jyPKqxeTj5Q?si=nKIF3iYeKnN5ji7w"/>
 
@@ -32,7 +32,7 @@
 
                 </Grid>
 
-            <ScrollView>
+            </ScrollView>
 	
 	</Grid>
         
