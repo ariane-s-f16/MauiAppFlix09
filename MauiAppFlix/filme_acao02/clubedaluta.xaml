@@ -26,7 +26,7 @@
                         </StackLayout>
                     <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
                         <Label Text="sinopse" Style="{StaticResource titulo}"/>
-                        <label Text="Um homem deprimido que sofre de insônia conhece um estranho vendedor chamado Tyler Durden 
+                        <Label Text="Um homem deprimido que sofre de insônia conhece um estranho vendedor chamado Tyler Durden 
                                e se vê morando em uma casa suja 
                                depois que seu perfeito apartamento é destruído. 
                                A dupla forma um clube com regras rígidas onde homens lutam. 
