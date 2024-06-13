@@ -19,17 +19,17 @@
 
         <ScrollView >
             <Grid RowDefinitions="300,300,300" ColumnDefinitions="*,*" Padding="5" RowSpacing="2" ColumnSpacing="2">
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="clubedalutabtn"
-								 Style="{StacticResource btnfilm}" Source="acao_clubedaluta.jpg" Clicked="clubedalutabtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="elaedmsbtn"
+								 Style="{StacticResource btnfilm}" Source="ro_elaedms.jpg" Clicked="elaedmsbtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="karatekidbtn"
-								 Style="{StacticResource btnfilm}" Source="acao_karatekid.jpg" Clicked="karatekidbtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="comosefossebtn"
+								 Style="{StacticResource btnfilm}" Source="ro_comosefosse.jpg" Clicked="comosefossebtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="vilgadores-ultimato"
-								 Style="{StacticResource btnfilm}" Source="acao_vingadoresultimato.jpg" Clicked="vingadoresultimatobtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="o365btn"
+								 Style="{StacticResource btnfilm}" Source="ro_365.jpg" Clicked="o365btnbtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="ostrezentosbtn"
-								 Style="{StacticResource btnfilm}" Source="acao_300.jpg" Clicked="ostrezentosbtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="yournamebtn"
+								 Style="{StacticResource btnfilm}" Source="ro_yourname.jpg" Clicked="yournamesbtn_Clicked"/>
 
             </Grid>
 

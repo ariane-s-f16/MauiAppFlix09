@@ -25,7 +25,7 @@
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="elenabtn"
 								 Style="{StacticResource btnfilm}" Source="do_elena.jpg" Clicked="elenabtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="pele"
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="pelebtn"
 								 Style="{StacticResource btnfilm}" Source="do_pele.jpg" Clicked="pelebtn_Clicked"/>
 
                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="sennabtn"

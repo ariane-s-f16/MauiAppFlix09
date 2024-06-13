@@ -19,17 +19,17 @@
 
         <ScrollView >
             <Grid RowDefinitions="300,300,300" ColumnDefinitions="*,*" Padding="5" RowSpacing="2" ColumnSpacing="2">
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="clubedalutabtn"
-								 Style="{StacticResource btnfilm}" Source="acao_clubedaluta.jpg" Clicked="clubedalutabtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="blairbtn"
+								 Style="{StacticResource btnfilm}" Source="terror_blair.jpg" Clicked="blairbtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="karatekidbtn"
-								 Style="{StacticResource btnfilm}" Source="acao_karatekid.jpg" Clicked="karatekidbtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="omassacrebtn"
+								 Style="{StacticResource btnfilm}" Source="acao_omassacredaserra.jpg" Clicked="omassacredaserrabtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="vilgadores-ultimato"
-								 Style="{StacticResource btnfilm}" Source="acao_vingadoresultimato.jpg" Clicked="vingadoresultimatobtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="panicobtn"
+								 Style="{StacticResource btnfilm}" Source="terror_panico.jpg" Clicked="panicobtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="ostrezentosbtn"
-								 Style="{StacticResource btnfilm}" Source="acao_300.jpg" Clicked="ostrezentosbtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="nosbtn"
+								 Style="{StacticResource btnfilm}" Source="terror_nos.jpg" Clicked="nosbtn_Clicked"/>
 
             </Grid>
 

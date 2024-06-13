@@ -58,11 +58,17 @@
 
 	<ItemGroup>
 	  <AndroidResource Remove="filmes_aventura\**" />
+	  <AndroidResource Remove="nacional\**" />
 	  <Compile Remove="filmes_aventura\**" />
+	  <Compile Remove="nacional\**" />
 	  <EmbeddedResource Remove="filmes_aventura\**" />
+	  <EmbeddedResource Remove="nacional\**" />
 	  <MauiCss Remove="filmes_aventura\**" />
+	  <MauiCss Remove="nacional\**" />
 	  <MauiXaml Remove="filmes_aventura\**" />
+	  <MauiXaml Remove="nacional\**" />
 	  <None Remove="filmes_aventura\**" />
+	  <None Remove="nacional\**" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -72,6 +78,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="acao\300.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="acao\clubedalt.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="acao\karetekid.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="acao\vingadores.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="animacao\inossauro.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -84,16 +102,16 @@
 	  <MauiXaml Update="animacao\toystory.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="aventrura\carros.xaml">
+	  <MauiXaml Update="aventura\carros.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="aventrura\gatodebotas.xaml">
+	  <MauiXaml Update="aventura\gatodebotas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="aventrura\harrypotter.xaml">
+	  <MauiXaml Update="aventura\harrypotter.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="aventrura\jurrasicpark.xaml">
+	  <MauiXaml Update="aventura\jurrasicpark.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categoria\acao.xaml">
@@ -135,7 +153,7 @@
 	  <MauiXaml Update="comedia\asbranquelas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="comedia\click.xaml">
+	  <MauiXaml Update="comedia\gentegrande.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="comedia\opequeninio.xaml">
@@ -144,7 +162,40 @@
 	  <MauiXaml Update="comedia\todomundoempanico.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="documentario\elenaxaml.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="documentario\mariele.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="documentario\NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="documentario\senna.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="drama\aculpa.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="drama\aesperadeummi.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="drama\comoeuera.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="drama\invictus.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ficcao\click.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ficcao\extraordinario.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ficcao\godzilla.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ficcao\homemdeferro.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="filme_acao02\clubedaluta.xaml">
@@ -159,16 +210,60 @@
 	  <MauiXaml Update="filme_acao02\vingadores.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="guerra\1917.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="guerra\ateoultimohomem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="guerra\chefao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="guerra\zonaderisco.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="infantil\frozen.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="infantil\monstrossa.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="infantil\osincriveis.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="infantil\vidadeinseto.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="romance\365.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="romance\comosefosse.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="romance\elaedmspramim.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="romance\yourname.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="suspense\blair.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="suspense\massacre.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="suspense\nos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="suspense\panico.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ficcao\" />
-	  <Folder Include="drama\" />
-	  <Folder Include="guerra\" />
-	  <Folder Include="infantil\" />
-	  <Folder Include="nacional\" />
-	  <Folder Include="suspense\" />
-	  <Folder Include="romance\" />
+	  <Compile Update="comedia\gentegrande.xaml.cs">
+	    <DependentUpon>gentegrande.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 </Project>

@@ -4,45 +4,45 @@
              x:Class="MauiAppFlix.nacional"
              Title="nacional"
 			 backgroundColor="black">
-	<ContentPage.Resources>
-		<ResourceDicionary>
-			<Style x:Key="btnfilmes" TargetType="imageButton">
-				<Setter Property="HorizontalOptions" Value="Fill"/>
-				<Setter Property="VerticalOptions" Value="FillAndExpand"/>
-				<Setter Property="CornerRadius" Value="3"/>
-				<Setter Property=" BackgroundColor" Value= "Transparent"/>
-			</Style>		
-		</ResourceDicionary>
-	</ContentPage.Resources>
+    <ContentPage.Resources>
+        <ResourceDicionary>
+            <Style x:Key="btnfilmes" TargetType="imageButton">
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+                <Setter Property="CornerRadius" Value="3"/>
+                <Setter Property=" BackgroundColor" Value= "Transparent"/>
+            </Style>
+        </ResourceDicionary>
+    </ContentPage.Resources>
     <VerticalStackLayout>
 
 
         <ScrollView >
             <Grid RowDefinitions="300,300,300" ColumnDefinitions="*,*" Padding="5" RowSpacing="2" ColumnSpacing="2">
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="clubedalutabtn"
-								 Style="{StacticResource btnfilm}" Source="acao_clubedaluta.jpg" Clicked="clubedalutabtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="cidadededeusbtn"
+								 Style="{StacticResource btnfilm}" Source="nacional_cidadededeus.jpg" Clicked="cidadedeusbtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="karatekidbtn"
-								 Style="{StacticResource btnfilm}" Source="acao_karatekid.jpg" Clicked="karatekidbtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="minhamaebtn"
+								 Style="{StacticResource btnfilm}" Source="nacional_minhamae.jpg" Clicked="minhamaebtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="vilgadores-ultimato"
-								 Style="{StacticResource btnfilm}" Source="acao_vingadoresultimato.jpg" Clicked="vingadoresultimatobtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="osfarofeiros"
+								 Style="{StacticResource btnfilm}" Source="nacional_osfarofeiros.jpg" Clicked="osfarofeirosbtn_Clicked"/>
 
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="ostrezentosbtn"
-								 Style="{StacticResource btnfilm}" Source="acao_300.jpg" Clicked="ostrezentosbtn_Clicked"/>
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0" x:Name="bacuraubtn"
+								 Style="{StacticResource btnfilm}" Source="nacional_bacurau.jpg" Clicked="bacuraubtn_Clicked"/>
 
             </Grid>
 
 
 
         </ScrollView>
-	
-	
-        
-    </VerticalStackLayout>
-	
-		
 
-			
-			 
+
+
+    </VerticalStackLayout>
+
+
+
+
+
 </ContentPage>
