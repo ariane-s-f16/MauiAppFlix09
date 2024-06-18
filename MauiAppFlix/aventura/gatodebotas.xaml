@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppFlix.aventrura.gatodebotas"
+             x:Class="MauiAppFlix.aventura.gatodebotas"
              Title="gatodebotas">
     <VerticalStackLayout>
         <Grid RowDefinitions="*,*" ColumnDefinitions="*">
             <WebView Grid.Column="0" Grid.Row="0"
-			  Source="https://youtu.be/ejvK2jW8dh8?si=Abu68xeKehDEX3ZF"/>
+              source ="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DT1bd9qATBoQ&ved=2ahUKEwiwmLv32OWGAxV8BbkGHdf5DzkQ28sGegQIIRAF&usg=AOvVaw0YSbcJwDUEtajpRR353r7E"/>
 
             <ScrollView Grid.Row="1" Grid.Column="0">
 
@@ -20,16 +20,15 @@
 
                         <Label Text="Direção" Margin="0,20,0,0" Style="{StaticResource titulo}"/>
 
-                        <Label Text="David Fincher" Style="{StaticResource textotitulo}"/>
+                        <Label Text="Chris Miller (LX)" Style="{StaticResource textotitulo}"/>
 
                     </StackLayout>
                     <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
                         <Label Text="sinopse" Style="{StaticResource titulo}"/>
-                        <Label Text="Um homem deprimido que sofre de insônia conhece um estranho vendedor chamado Tyler Durden 
-                           e se vê morando em uma casa suja 
-                           depois que seu perfeito apartamento é destruído. 
-                           A dupla forma um clube com regras rígidas onde homens lutam. 
-                           A parceria perfeita é comprometida quando uma mulher, Marla, atrai a atenção de Tyler." FontSize="Medium" Padding="5"/>
+                        <Label Text="Muito antes de conhecer o ogro Shrek e sua turma,
+                        Gato de Botas (Antonio Banderas) vai viver uma grande aventura ao lado de Humpty Dumpty (Zach Galifianakis) e Kitty Pata Mansa (Salma Hayek). 
+                        Dipostos a roubar os feijões mágicos do casal fora da lei Jack (Billy Bob Thornton) e Jill (Amy Sedaris), 
+                       o trio quer mesmo é botar as mãos na famosa gansa que bota ovos de ouro. Mas algumas coisas não estavam nos planos e Gato vai descobrir, meio atrasado, que tem um grande problema pela frente para conseguir limpar o que ficou para trás: a  sua honra." FontSize="Medium" Padding="5"/>
                     </StackLayout>
 
                 </Grid>
