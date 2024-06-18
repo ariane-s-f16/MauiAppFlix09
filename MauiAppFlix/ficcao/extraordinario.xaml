@@ -4,9 +4,38 @@
              x:Class="MauiAppFlix.ficcao.extraordinario"
              Title="extraordinario">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Grid RowDefinitions="*,*" ColumnDefinitions="*">
+            <WebView Grid.Column="0" Grid.Row="0"
+			  Source="https://youtu.be/ejvK2jW8dh8?si=Abu68xeKehDEX3ZF"/>
+
+            <ScrollView Grid.Row="1" Grid.Column="0">
+
+                <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                    <Image Grid.Row="0" Grid.Column="0" x:Name="poster" HeightRequest="300"/>
+
+                    <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1"  Grid.Row="0">
+                        <Label Text="data de Lançamento" Style="{StaticResource titulo}" />
+
+                        <Label Text="29 de outubro de 1999" Style="{StaticResource textotitulo}"/>
+
+                        <Label Text="Direção" Margin="0,20,0,0" Style="{StaticResource titulo}"/>
+
+                        <Label Text="David Fincher" Style="{StaticResource textotitulo}"/>
+
+                    </StackLayout>
+                    <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+                        <Label Text="sinopse" Style="{StaticResource titulo}"/>
+                        <Label Text="Um homem deprimido que sofre de insônia conhece um estranho vendedor chamado Tyler Durden 
+                           e se vê morando em uma casa suja 
+                           depois que seu perfeito apartamento é destruído. 
+                           A dupla forma um clube com regras rígidas onde homens lutam. 
+                           A parceria perfeita é comprometida quando uma mulher, Marla, atrai a atenção de Tyler." FontSize="Medium" Padding="5"/>
+                    </StackLayout>
+
+                </Grid>
+
+            </ScrollView>
+
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>
